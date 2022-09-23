@@ -1,0 +1,25 @@
+/**VARIABLES*/
+:root{
+    /**PRIMARY COLORS*/
+    --violet: hsl(263, 55%, 52%);
+    --dark-gray-blue: hsl(217, 19%, 35%);
+    --dark-black-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+
+    /**NEUTRAL COLORS*/
+    --light-gray: hsl(0, 0%, 81%);
+    --light-gray-blue: hsl(210, 46%, 95%);
+
+}
+
+/**SETTING UP VARIABLES FOR USE IN CODE*/
+/*?BACKGROUND COLORS*/
+.violet-bg{background-color: var(--violet);}
+.dark-gray-blue-bg{background-color: var(--dark-gray-blue);}
+.dark-black-blue-bg{background-color: var(--dark-black-blue);}
+.white-bg{background-color: var(--white);}
+
+/*?FONT COLORS*/
+.dark-gray-blue-fc{color: var(--dark-gray-blue);}
+.dark-black-blue-fc{color: var(--dark-black-blue);}
+.white-fc{color: var(--white);}
