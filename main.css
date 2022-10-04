@@ -1,4 +1,7 @@
 /**VARIABLES*/
+*{
+    border: 2px solid red;
+}
 :root{
     /**PRIMARY COLORS*/
     --violet: hsl(263, 55%, 52%);
@@ -11,10 +14,17 @@
     --light-gray-blue: hsl(210, 46%, 95%);
 
 }
-/**MISC*/
+/**BODY*/
 body{
     background-color: var(--light-gray-blue);
 }
+
+/**STYLING CONTENT*/
+/*?BORDER RADIUS*/
+.border-radius{border-radius: 20px;}
+.icon-border-radius{border-radius: 100px; border: 2px solid white;}
+.margin{margin-left: 50px;}
+.padding{padding: 10px 50px 10px 50px;}
 
 /**SETTING UP VARIABLES FOR USE IN CODE*/
 /*?BACKGROUND COLORS*/
